@@ -57,9 +57,6 @@
 
 % 西文字体默认为 Times New Roman
 \setromanfont{Times New Roman}
-% 论文题目字体为华文细黑
-\setCJKfamilyfont{xihei}[Path=fonts/]{STXIHEI.TTF} % 若希望使用本机字体，也可以用 {STXihei} 来调用
-\newcommand{\xihei}{\CJKfamily{xihei}}
 
 % 论文中文题目
 \newcommand{\thesisTitle}{毕业设计（论文）题目}
@@ -103,8 +100,8 @@
 % 二级标题：黑体，小三号，加粗，汉字编号；间距：段前 0.5 行，段后 0 行；
 \ctexset{section={
     number = {\chinese{section}},
-    format = {\xihei \raggedright \bfseries \zihao{4}},
-    aftername = \xihei{、},
+    format = {\heiti \raggedright \bfseries \zihao{4}},
+    aftername = \heiti{、},
     beforeskip = 20bp plus 1ex minus .2ex,
     afterskip = 18bp plus .2ex,
     fixskip = true,
