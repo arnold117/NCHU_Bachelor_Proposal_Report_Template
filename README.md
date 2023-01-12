@@ -1,0 +1,2 @@
+# NCHU_Bachelor_Proposal_Report_Template
+南昌航空大学（非官方）本科生毕业设计开题报告模板
