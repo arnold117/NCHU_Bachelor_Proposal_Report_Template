@@ -14,8 +14,8 @@
 NCHU_Bachelor_Proposal_Report_Template
 ├─ .gitignore
 ├─ fonts
-│  ├─ STSONG.TTF
-│  ├─ STXIHEI.TTF
+│  ├─ simhei.ttf
+│  ├─ simsun.ttc
 │  └─ TimesNewRoman
 │     ├─ times.ttf
 │     ├─ timesbd.ttf
