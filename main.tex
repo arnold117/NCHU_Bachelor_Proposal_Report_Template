@@ -58,6 +58,14 @@
 % 西文字体默认为 Times New Roman
 \setromanfont{Times New Roman}
 
+% 使用根目录的字体文件替代网络上的
+\let\songti\relax
+\let\heiti\relax
+\let\kaishu\relax
+\newCJKfontfamily\songti{SimSun.ttc}[AutoFakeSlant,AutoFakeBold]
+\newCJKfontfamily\kaishu{SimKai.ttf}[AutoFakeSlant,AutoFakeBold]
+\newCJKfontfamily\heiti{SimHei.ttf}[AutoFakeSlant,AutoFakeBold]
+
 % 论文中文题目
 \newcommand{\thesisTitle}{毕业设计（论文）题目}
 % 论文英文题目（可选）
